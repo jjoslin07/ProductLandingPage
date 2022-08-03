@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#header-img {
+	height: 5rem;
+	width: 20rem;
+	margin: 0;
+	float: left;
+	object-fit: cover;
+}
+#nav-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+#nav-bar > ul {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem;
+}
+#nav-bar > ul > li {
+	padding: 0 5rem;
+	list-style: none;
+}
+#nav-bar > ul > li > a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.4rem;
+}
+#nav-bar > ul > li > a:hover {
+	border-bottom: 2px solid rgb(251, 203, 15);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+}
+.main-section {
+	margin: 5rem 0;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+}
+#email {
+	width: 20rem;
+	line-height: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#submit {
+	line-height: 2rem;
+	background-color: rgb(251, 203, 15);
+	width: 9rem;
+	align-self: center;
+}
+#Features > h2,
+#Features > p {
+	margin-bottom: 2rem;
+}
+#Features > p {
+	margin-top: 0.25rem;
+	margin-left: 5.7rem;
+}
+.inline {
+	display: inline !important;
+}
+i {
+	font-size: 3rem;
+	color: rgb(251, 203, 15);
+	margin-right: 2rem;
+	position: relative;
+	top: 1rem;
+}
+.card {
+	display: inline-block;
+	margin: 0 8rem;
+}
+.card-img > img {
+	width: 15rem;
+	object-fit: cover;
+}
+#How_It_Works h2,
+#How_It_Works p {
+	margin: 2rem auto;
+	width: 40rem;
+}
+#How_It_Works h2 {
+	text-align: center;
+}
+#Pricing > article > p {
+	font-size: 2rem;
+	display: flex;
+	place-items: center;
+	flex-direction: column;
+}
+#price {
+	color: yellow;
+	background-color: black;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+}
+#buy-now-button {
+	color: red;
+	background-color: white;
+	font-size: 2rem;
+	position: relative;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	top: 1rem;
+	left: 20rem;
+}
+#buy-now-button:hover {
+	color: white;
+	background-color: red;
+}
+@media (max-width: 1010px) {
+	#Features {
+		width: 80%;
+	}
+	.card {
+		display: block;
+		margin: 0 8rem;
+	}
+}
+@media (max-width: 955px) {
+	#header {
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://i.pinimg.com/originals/b4/6e/62/b46e6208b82b32c4c73f702ac92b9cda.jpg"
+            alt="DuckyDuck Debugging Logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#Features">Features</a></li>
+                <li><a class="nav-link" href="#How_It_Works">How It Works</a></li>
+                <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section" id="form-section">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your email address" name="email">
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </section>
+        <section class="main-section" id="Features">
+            <i class="fa-solid fa-hammer"></i>
+            <h2 class="inline">Durable Material</h2>
+            <p>Our rubber ducks are made of the toughest durable plastic and are guaranteed to last for
+                years to come.
+            </p>
+            <i class="fa-solid fa-truck-fast"></i>
+            <h2 class="inline">2 Day Shipping</h2>
+            <p>As soon as you click buy now we will package your duck securely and ship it. You should
+                expect to have
+                your duck in the mail within two days!</p>
+            <i class="fa-solid fa-battery-full"></i>
+            <h2 class="inline">Quality Guarantee</h2>
+            <p>We have a 12-point quality inspection and your duck is guaranteed to arrive with no flaws
+                or your money
+                back!</p>
+
+        </section>
+        <section class="video">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/NBgIHOrjSxs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section class="main-section" id="How_It_Works">
+            <h2>How It Works</h2>
+            <p> If you are stuck on a problem you can use this duck to debug your code! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Obcaecati sequi alias nemo, harum temporibus
+                natus asperiores, deleniti repellat maxime voluptatum autem minima minus blanditiis inventore sint
+                laudantium recusandae, accusamus laborum omnis voluptate qui quod! Vitae necessitatibus ab accusamus ad
+                dolore omnis, enim minima! Laborum veniam tenetur omnis doloremque nihil laudantium!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima harum consequatur quam doloribus
+                suscipit accusantium sed, laudantium nostrum totam cumque a atque eos repellat nulla quibusdam tempore.
+                Exercitationem, aperiam! At!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia eos debitis, eaque libero porro qui eius
+                rem. Ea inventore quisquam ratione aut in voluptatum nostrum, nemo necessitatibus sint nesciunt culpa
+                sit, delectus tenetur quae molestiae officiis? Incidunt voluptas architecto excepturi odio laboriosam
+                enim eligendi. Dicta fuga cupiditate alias amet eos, quod optio doloremque recusandae illum? Commodi
+                unde laboriosam voluptatum animi cum ut tempore! Unde ducimus placeat optio atque, et ratione fugiat
+                quod tempora laboriosam consectetur.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloribus enim veritatis? Itaque in
+                tempora architecto debitis aperiam nihil officiis rem omnis voluptatibus! Quisquam adipisci
+                necessitatibus cum harum tempora ducimus porro sint vero accusamus nisi, voluptatem dolores! Iste
+                inventore numquam incidunt adipisci nobis consequuntur animi, optio corrupti vero quae minima autem
+                molestiae perferendis, voluptas nisi neque illum aliquam dolorem aut cum necessitatibus facilis! Omnis,
+                tenetur magni dolore nobis illum minus obcaecati! Eaque cumque autem omnis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in unde nisi nam praesentium maxime
+                officia dignissimos quo possimus officiis, vel optio reprehenderit necessitatibus facilis, consectetur
+                odit quae esse. Molestiae id inventore aliquid omnis maxime, facilis laboriosam esse nam ea dolore.
+                Beatae, iusto nemo voluptate quis ad est ratione repellat quam inventore doloribus vitae voluptatibus
+                cum illo nesciunt numquam totam dolores labore voluptas, error deserunt.</p>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://m.media-amazon.com/images/I/71LgxJzwFKL._SL1500_.jpg"
+                        alt="munchinkin rubber duck">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+
+                    <img class="product-photo" src="https://m.media-amazon.com/images/I/71XnVF8HL4L._SL1500_.jpg"
+                        alt="munchinkin rubber duck">
+                </div>
+            </div>
+        </section>
+        <section class="main-section" id="Pricing">
+            <article>
+                <p class="inline">You can own one of these fabulous ducks for only <span class='inline'
+                        id="price">$29.99</span>
+                </p>
+            </article>
+            <button id="buy-now-button">Buy Now</button>
+        </section>
+    </main>
+</body>
+
+</html>
